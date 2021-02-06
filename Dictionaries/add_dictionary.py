@@ -1,6 +1,6 @@
 # EX1
 thisdict = {"brabd": "ford", "model": "Mustang", "year": 1964}
-thisdict["color"] = "red"
+thisdict["color"] = "red"  # เพิ่ม key
 print(thisdict)
 # output:{'brabd': 'ford', 'model': 'Mustang', 'year': 1964, 'color': 'red'}
 

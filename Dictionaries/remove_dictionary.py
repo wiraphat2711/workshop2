@@ -6,7 +6,7 @@ print(thisdict)
 
 # EX2
 thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
-thisdict.popitem()
+thisdict.popitem()  # ลบตัวสุดท้าย
 print(thisdict)
 # output:{'brand': 'Ford', 'model': 'Mustang'}
 

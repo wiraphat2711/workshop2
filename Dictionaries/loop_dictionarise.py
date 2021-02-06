@@ -1,6 +1,6 @@
 thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
 
-# EX1
+# EX1 เอา key ใน thisdict
 for key in thisdict:
     print(key)
 
@@ -8,8 +8,8 @@ for key in thisdict:
 # brand
 # model
 # year
-
-# EX2
+print("  ")
+# EX2 เอา value ใน thisdict
 for key in thisdict:
     print(thisdict[key])
 
@@ -17,8 +17,8 @@ for key in thisdict:
 # Ford
 # Mustang
 # 1964
-
-# EX3
+print("  ")
+# EX3 .key
 for key in thisdict.keys():
     print(key)
 
@@ -26,8 +26,8 @@ for key in thisdict.keys():
 # brand
 # model
 # year
-
-# EX4
+print("  ")
+# EX4 .value
 for value in thisdict.values():
     print(value)
 
@@ -35,8 +35,8 @@ for value in thisdict.values():
 # Ford
 # Mustang
 # 1964
-
-# EX5
+print("  ")
+# EX5 .item
 for key, value in thisdict.items():
     print(key, value)
 
